@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Starbucks</title>
+	<link rel="stylesheet" type="text/css" href="starbucks.css">
+</head>
+<body>
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="#"><img src="logo.png" class="logo"></a>
+			<ul>
+				<li><a href="#"> Home </a></li>
+				<li><a href="#"> Menu </a></li>
+				<li><a href="#"> What's new </a></li>
+				<li><a href="#"> Contact </a></li>
+			</ul>	
+		</header>
+		<div class="content">
+			<div class="textbox">
+				<h2> It's not just Coffee<br>It's <span>Starbucks</span></h2>
+				<p> Hi this my own website kindly chhat me on my facebook account dont hesitate to chat me </p>
+				<a href="https://www.starbucks.com/"> Learn More</a>
+		</div>
+		<div class="imgbox">
+			<img src="img1.png" class="starbucks">	
+		</div>
+	  </div>
+		<ul class ="thumb">
+			<li><img src="thumb1.png" onclick="imgslider('img1')"></li>
+			<li><img src="thumb2.png" onclick="imgslider('img1')"></li>
+			<li><img src="thumb3.png" onclick="imgslider('img3')"></li>
+		</ul>
+		<ul class="sci">
+			<li><a href="#"><img src="facebook.png"></a></li>
+		    <li><a href="#"><img src="instagram.png"></a></li>
+		    <li><a href="#"><img src="twitter.png"></a></li>
+		 </ul>
+	</section>
+	<script type="text/javascript">
+		function imgslider(anything){
+			document.queryselector('.starbucks').src = anything;
+		}
+	</script>
+</body>
+</html>
